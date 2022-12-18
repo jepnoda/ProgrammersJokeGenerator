@@ -26,7 +26,7 @@ const Covid = () => {
                         <Title Title="Total Cases" />
                         <Body Text={data.response[0].cases.total} />
                         <Title Title="Total Deaths" />
-                        <Body Text={data.response[0].cases.total} />
+                        <Body Text={data.response[0].deaths.total} />
                     </div>
             }
         </>
